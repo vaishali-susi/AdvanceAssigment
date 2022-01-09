@@ -1,0 +1,29 @@
+.heading{
+    font-size: xx-large;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row;
+}
+#min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#btn{
+    width: 80px;
+    height: 40px;
+    background-color: bisque;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

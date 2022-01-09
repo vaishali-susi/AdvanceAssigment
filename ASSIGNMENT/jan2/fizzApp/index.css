@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+
+}
+
+#lists{
+    background-color: blue;
+    text-align: center;
+    margin: 20px;
+}
+#btn{
+    margin-left: 48%;
+    height: 20px;
+    width: 60px;
+    
+}
