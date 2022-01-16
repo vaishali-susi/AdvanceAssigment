@@ -188,21 +188,74 @@
 
 
 
-Array.prototype.prime = function(a,b,c){
-    console.log(a);
-   for(let i=0;i<this.length;i++){
-        b = true;
-       for(let j=2;j<this[i];j++){
-if(this[i]%j==0){
-    b = false;
-    console.log(this[i] + " is a non prime number");
-     break;
-}
-       }
-       if(b == true)
-       console.log(this[i] + " is a prime number");
-   }
-}
+// Array.prototype.prime = function(a,b,c){
+//     console.log(a);
+//    for(let i=0;i<this.length;i++){
+//         b = true;
+//        for(let j=2;j<this[i];j++){
+// if(this[i]%j==0){
+//     b = false;
+//     console.log(this[i] + " is a non prime number");
+//      break;
+// }
+//        }
+//        if(b == true)
+//        console.log(this[i] + " is a prime number");
+//    }
+// }
 
-const arr3 = [3, 7, 12];
- arr3.prime(...arr3);
+// const arr3 = [3, 7, 12];
+//  arr3.prime(...arr3);
+
+// const fn = new Promise((resolved,reject)=>{
+
+// })
+
+// const a = (cb)=>{
+//     console.log("abcd");
+//     cb();
+
+// }
+// a(()=>{
+//     console.log("hey");
+// })
+
+// const a = (success_cb, failure_cb, one_more)=>{
+//     const num = prompt("Enter the number");
+// if(num%2==0){
+//     success_cb();
+// }else{
+//     failure_cb();
+// }
+// }
+
+// a(()=>{
+// console.log("success");
+// },()=>{
+// console.log("failure");
+// })
+
+// const fn = new Promise((resolve,reject)=>{
+// const num = prompt("enter the number");
+// if(num>2){
+//     resolve();
+// }else{
+//     reject();
+// }
+// })
+
+// fn.then((e)=>{
+//     console.log(e);
+// }).catch(()=>{
+//     console.log("reject");
+//  setTimeout(()=>{
+//     console.log("hello iam outer time out")
+// setTi    console.log("hello iam inside first inner Timeout")
+// },20000)
+// },10000)meout(()=>{
+
+
+    // fetch('https://jsonplaceholder.typicode.com/todos/1')
+    // .then(response => response.json())
+    // .then(json => console.log(json))
+
