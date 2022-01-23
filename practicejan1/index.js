@@ -259,3 +259,95 @@
     // .then(response => response.json())
     // .then(json => console.log(json))
 
+
+    // const a = (cb)=>{
+    //     console.log("hey am there");
+    //     cb();
+    // }
+
+    // a(()=>{
+    //     console.log("invoked as parameter")
+    // });
+//     function any(){
+//         console.log("iam fro function");
+//     }
+// let arr = [1,2,3,4]
+// function fn(){
+//     console.log(this);
+// }
+// fn.apply();
+// let call = {
+//          'num234324': 10,
+//          'num223423432423': 20,
+//          'sum': function() {
+//              let add = this.num1 + this.num2;
+//            console.log(add);
+//          },
+//          'showThis': function() {
+//              console.log(this);
+//          }
+//      }
+
+//      call.showThis();
+
+// fetch('https://reqres.in/api/users?page=2').then((response)=>{
+//     return response.json()
+// }).then((r)=>{
+// console.log(r.data[0])
+// })
+
+// setTimeout(()=>{
+// console.log("hey iam after 2 second");
+// },2000)
+
+
+// {
+//     let a = 10;
+    
+// }
+// console.log(a);
+
+// let a = 10;
+// let b = 20;
+// let temp = a;
+// a = b;
+// b = temp;
+// console.log(a);
+// console.log(b);
+
+// let string = "hello world";
+// let res = ""
+
+// for(let i =string.length-1;i>=0;i--){
+// let stringchar = string[i];
+// res+=stringchar;
+// }
+// console.log(res);
+
+// function fn(a,...b){
+//     console.log(a);
+//     console.log(b);
+// }
+// fn(10,2,3,4,5)
+
+// let a = 10;
+// let b = a;
+// a=20;
+// console.log(a);
+// console.log(b);
+// let  a = "abcd";
+// function fn(){
+//     function s(){
+// console.log(a);
+//     }
+//     return s;
+// }
+// fn()();
+
+fetch("https://thatcopy.github.io/catAPI/imgs/jpg/fa7117a.jpg").then((res)=>{
+return res.json();
+}).then((res)=>{
+console.log(res);
+})
+
+
